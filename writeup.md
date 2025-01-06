@@ -4,7 +4,7 @@ Please use this starter template to answer the following questions:
 
 ### 1. Write a short recap of the four tracking steps and what you implemented there (filter, track management, association, camera fusion). Which results did you achieve? Which part of the project was most difficult for you to complete, and why?
 
-## Filter
+## Filter - (The RMSE plot PNG file uploaded to submission.zip folder)
 
 In this task, I successfully implemented the predict() and update() functions for an Extended Kalman Filter (EKF) to handle a constant velocity process model in 3D. Here's a summary of the key steps and results:
 
@@ -27,7 +27,7 @@ This result confirms the correctness of the implementation and the proper integr
 
 By completing this task, the EKF is now functioning as intended, ready for handling both linear and nonlinear measurements in subsequent steps.
 
-## track management
+## track management (The RMSE plot PNG file uploaded to submission.zip folder)
 In this task, I implemented the necessary functionality within `student/trackmanagement.py` to manage tracks effectively for lidar-based object tracking. The key accomplishments include:
 
 1. Track Initialization:
@@ -52,7 +52,7 @@ In this task, I implemented the necessary functionality within `student/trackman
      - Tracks were deleted after they left the visible range, with the console displaying messages like `"deleting track no. 0"`.
    - The RMSE plot showed a single line, indicating no track losses, and the system maintained accurate tracking throughout the scenario.
 
-## association, camera fusion
+## association (The RMSE plot PNG file uploaded to submission.zip folder)
 
 In this task, I successfully implemented the association logic in `student/association.py` to associate measurements with tracks based on Mahalanobis distances and gating. The key achievements include:
 
@@ -95,7 +95,7 @@ In this task, I successfully implemented the association logic in `student/assoc
 
 By completing this task, the association system now robustly links measurements to tracks, forming the foundation for effective multi-object tracking. Any remaining initialized or tentative ghost tracks will be addressed in subsequent sensor fusion steps, improving reliability further.
 
-## Sesnor Fusion
+## Sesnor Fusion (The RMSE plot PNG file uploaded to submission.zip folder)
 
 In this task, I worked on extending the tracking system to handle camera measurements alongside lidar, and while I was unable to fully track three tracks from end to end, I have double-checked the implementation thoroughly to the best of my knowledge. Here are the key accomplishments:
 
